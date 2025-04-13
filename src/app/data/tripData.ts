@@ -5,12 +5,12 @@ interface TripItem {
   }
   
   export const trips: TripItem[] = [
-    { name: "السعودية", image: "/images/country-1.jpeg", path: "saudi-arabia" },
+    { name: "السعودية", image: "/images/country-7.jpg", path: "saudi-arabia" },
     { name: "الإمارات", image: "/images/country-2.jpeg", path: "uae" },
-    { name: "مصر", image: "/images/country-3.jpeg", path: "egypt" },
+    { name: "مصر", image: "/images/country-9.jpeg", path: "egypt" },
     { name: "تركيا", image: "/images/country-4.jpeg", path: "turkey" },
     { name: "تركيا", image: "/images/country-5.jpeg", path: "turkey" },
     { name: "تركيا", image: "/images/country-6.jpg", path: "turkey" },
-    { name: "تركيا", image: "/images/country-7.jpg", path: "turkey" },
-    { name: "تركيا", image: "/images/country-7.jpg", path: "turkey" },
+    { name: "تركيا", image: "/images/country-11.jpeg", path: "turkey" },
+    { name: "تركيا", image: "/images/country-10.jpeg", path: "turkey" },
   ];

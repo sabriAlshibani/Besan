@@ -7,7 +7,7 @@ type elementProps = {
 
 function LinkButton({ href, children }: elementProps) {
   return (
-    <Link href={href || "#"} className="text-gray-500 text-[20px] font-semibold hover:text-primary">
+    <Link href={href || "#"} className="text-gray-500 text-[18px] font-semibold hover:text-primary">
       {children}
     </Link>
   );

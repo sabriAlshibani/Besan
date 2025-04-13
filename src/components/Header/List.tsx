@@ -1,13 +1,5 @@
+import { links } from "@/app/data/navData";
 import LinkButton from "../LinkButton";
-
-// List of links as an object
-const links = [
-  { href: "/FlightBooking", label: "الرئيسية" },
-  { href: "/booking", label: "حجز" },
-  { href: "/about", label: "من نحن" },
-  { href: "/contact", label: "تواصل معنا" },
-];
-
 type ListProps = {
   isOpen: boolean;
 };
