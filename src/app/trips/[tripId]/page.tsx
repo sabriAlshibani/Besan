@@ -3,16 +3,17 @@ import React from "react";
 import Image from "next/image"; 
 import { heroData } from "@/app/data/heroData";
 
-interface TripPageProps {
+// ✅ FIX: Use the proper type for App Router params
+type Props = {
   params: {
     tripId: string;
   };
-}
+};
 
-export default function TripPage({ params }: TripPageProps) {
-
+export default function TripPage({ params }: Props) {
   const { tripId } = params;
-const trip = heroData[tripId as keyof typeof heroData];
+
+  const trip = heroData[tripId as keyof typeof heroData];
 
   if (!trip) {
     return <div className="p-6 text-center text-red-500">🚫 الرحلة غير موجودة</div>;
