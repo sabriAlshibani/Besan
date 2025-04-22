@@ -10,7 +10,8 @@ type Props = {
   };
 };
 
-export default function TripPage({ params }: Props) {
+// eslint-disable-next-line @next/next/no-async-client-component
+export default async function TripPage({ params }: Props) {
   const { tripId } = params;
 
   const trip = heroData[tripId as keyof typeof heroData];
